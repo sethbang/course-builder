@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Custom Course Builder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>Custom Course Builder</h1>
+    </header>
+    <main>
+        <form id="course-form">
+            <div class="form-group">
+                <label for="subject">Subject:</label>label>
+                <input type="text" id="subject" name="subject" required>
+            </div>
+            <div class="form-group">
+                <label for="course-length">Course Length (in weeks):</label>
+                <input type="number" id="course-length" name="course-length" min="1" required>
+            </div>
+            <div class="form-group">
+                <label for="education-level">Education Level:</label>
+                <select id="education-level" name="education-level" required>
+                    <option value="">Select an education level</option>
+                    <option value="8th-grade">8th Grade</option>
+                    <option value="9th-grade">9th Grade</option>
+                    <option value="10th-grade">10th Grade</option>
+                    <option value="11th-grade">11th Grade</option>
+                    <option value="12th-grade">12th Grade</option>
+                    <option value="undergraduate-first-year">First Year Undergraduate</option>option>
+                    <option value="undergraduate-second-year">Second Year Undergraduate</option>
+                    <option value="undergraduate-third-year">Third Year Undergraduate</option>
+                    <option value="undergraduate-fourth-year">Fourth Year Undergraduate</option>
+                    <option value="graduate">Graduate</option>
+                </select>
+            </div>div>
+            <button type="submit">Build Course</button>button>
+        </form>
+        <section id="course-output">
+            <!-- The custom course content will be displayed here -->
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Custom Course Builder</p>
+    </footer>footer>
+    <script src="main.js"></script>
+</body>
+
+</html>
+</button></option></label></title>
